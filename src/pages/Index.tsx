@@ -288,26 +288,49 @@ const TestimonialsSection = () => {
           ))}
         </div>
 
-        {/* Featured Real Testimonial */}
+        {/* Featured Real Testimonials */}
         <div className="mt-16">
           <h3 className="font-display text-3xl md:text-5xl text-center text-primary mb-8">
             ⚡ REAL PROOF OF CHADNESS ⚡
           </h3>
-          <Card className="max-w-xl mx-auto bg-gradient-to-br from-card via-chad-gold/10 to-chad-pink/10 border-4 border-chad-gold hover:scale-105 transition-all duration-300 animate-pulse-glow overflow-hidden">
-            <CardContent className="p-0">
-              <img
-                src="/what-a-chad-tweet.jpeg"
-                alt="BOB Space on X: Game changing stuff, built on Nostr. What a Chad! - featuring Soapbox saying: This is our dev, Chad! A few of him may know him for his excellent ability to fix all the things in the blink of an eye."
-                className="w-full h-auto"
-              />
-            </CardContent>
-          </Card>
-          <p className="text-center font-display text-2xl text-chad-gold mt-6">
-            EVEN SOAPBOX SAYS: "WHAT A CHAD!"
-          </p>
-          <p className="text-center text-muted-foreground mt-2">
-            "We hear this so often about Chad, we may just make him a business card that says, 'What a Chad!'"
-          </p>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div>
+              <Card className="bg-gradient-to-br from-card via-chad-gold/10 to-chad-pink/10 border-4 border-chad-gold hover:scale-105 transition-all duration-300 animate-pulse-glow overflow-hidden">
+                <CardContent className="p-0">
+                  <img
+                    src="/what-a-chad-tweet.jpeg"
+                    alt="BOB Space on X: Game changing stuff, built on Nostr. What a Chad! - featuring Soapbox saying: This is our dev, Chad! A few of him may know him for his excellent ability to fix all the things in the blink of an eye."
+                    className="w-full h-auto"
+                  />
+                </CardContent>
+              </Card>
+              <p className="text-center font-display text-xl text-chad-gold mt-4">
+                EVEN SOAPBOX SAYS: "WHAT A CHAD!"
+              </p>
+              <p className="text-center text-muted-foreground mt-2 text-sm">
+                "We hear this so often about Chad, we may just make him a business card that says, 'What a Chad!'"
+              </p>
+            </div>
+
+            <div>
+              <Card className="bg-gradient-to-br from-card via-chad-purple/10 to-chad-blue/10 border-4 border-chad-purple hover:scale-105 transition-all duration-300 animate-pulse-glow overflow-hidden">
+                <CardContent className="p-0">
+                  <img
+                    src="/chad-fan-club.png"
+                    alt="Nostr thread: BitPopArt praising Chad for being a good dev who communicates well with content creators, Derek Ross confirming he's already helping, and Chad thanking them for the kind words."
+                    className="w-full h-auto"
+                  />
+                </CardContent>
+              </Card>
+              <p className="text-center font-display text-xl text-chad-purple mt-4">
+                THE CHAD FAN CLUB 🫂
+              </p>
+              <p className="text-center text-muted-foreground mt-2 text-sm">
+                "He is the man who kept me trying Shakespeare because of his good communication" — BitPopArt 🙏
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
