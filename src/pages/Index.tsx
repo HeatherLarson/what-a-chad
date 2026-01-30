@@ -294,6 +294,25 @@ const TestimonialsSection = () => {
             ⚡ REAL PROOF OF CHADNESS ⚡
           </h3>
 
+          {/* TravelTelly testimonial - NEWEST */}
+          <div className="mb-12 max-w-2xl mx-auto">
+            <Card className="bg-gradient-to-br from-card via-chad-green/10 to-chad-blue/10 border-4 border-chad-green hover:scale-105 transition-all duration-300 animate-pulse-glow overflow-hidden">
+              <CardContent className="p-0">
+                <img
+                  src="/traveltelly-chad-love.png"
+                  alt="TravelTelly on Nostr: Without @chad I would already have stopped months ago. Because AI can do a lot but knowing there is a real human always there to help with bugs is such a relief. For me Shakespeare is amazing because of Chad and TravelTelly would not be there yet without him."
+                  className="w-full h-auto"
+                />
+              </CardContent>
+            </Card>
+            <p className="text-center font-display text-xl text-chad-green mt-4">
+              TRAVELTELLY WOULDN'T EXIST WITHOUT CHAD 🗺️
+            </p>
+            <p className="text-center text-muted-foreground mt-2 text-sm">
+              "For me Shakespeare is amazing because of Chad and TravelTelly would not be there yet without him." 🙏
+            </p>
+          </div>
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div>
               <Card className="bg-gradient-to-br from-card via-chad-gold/10 to-chad-pink/10 border-4 border-chad-gold hover:scale-105 transition-all duration-300 animate-pulse-glow overflow-hidden">
@@ -330,25 +349,6 @@ const TestimonialsSection = () => {
                 "He is the man who kept me trying Shakespeare because of his good communication" — BitPopArt 🙏
               </p>
             </div>
-          </div>
-
-          {/* TravelTelly testimonial */}
-          <div className="mt-12 max-w-2xl mx-auto">
-            <Card className="bg-gradient-to-br from-card via-chad-green/10 to-chad-blue/10 border-4 border-chad-green hover:scale-105 transition-all duration-300 animate-pulse-glow overflow-hidden">
-              <CardContent className="p-0">
-                <img
-                  src="/traveltelly-chad-love.png"
-                  alt="TravelTelly on Nostr: Without @chad I would already have stopped months ago. Because AI can do a lot but knowing there is a real human always there to help with bugs is such a relief. For me Shakespeare is amazing because of Chad and TravelTelly would not be there yet without him."
-                  className="w-full h-auto"
-                />
-              </CardContent>
-            </Card>
-            <p className="text-center font-display text-xl text-chad-green mt-4">
-              TRAVELTELLY WOULDN'T EXIST WITHOUT CHAD 🗺️
-            </p>
-            <p className="text-center text-muted-foreground mt-2 text-sm">
-              "For me Shakespeare is amazing because of Chad and TravelTelly would not be there yet without him." 🙏
-            </p>
           </div>
         </div>
       </div>
