@@ -331,6 +331,25 @@ const TestimonialsSection = () => {
               </p>
             </div>
           </div>
+
+          {/* TravelTelly testimonial */}
+          <div className="mt-12 max-w-2xl mx-auto">
+            <Card className="bg-gradient-to-br from-card via-chad-green/10 to-chad-blue/10 border-4 border-chad-green hover:scale-105 transition-all duration-300 animate-pulse-glow overflow-hidden">
+              <CardContent className="p-0">
+                <img
+                  src="/traveltelly-chad-love.png"
+                  alt="TravelTelly on Nostr: Without @chad I would already have stopped months ago. Because AI can do a lot but knowing there is a real human always there to help with bugs is such a relief. For me Shakespeare is amazing because of Chad and TravelTelly would not be there yet without him."
+                  className="w-full h-auto"
+                />
+              </CardContent>
+            </Card>
+            <p className="text-center font-display text-xl text-chad-green mt-4">
+              TRAVELTELLY WOULDN'T EXIST WITHOUT CHAD 🗺️
+            </p>
+            <p className="text-center text-muted-foreground mt-2 text-sm">
+              "For me Shakespeare is amazing because of Chad and TravelTelly would not be there yet without him." 🙏
+            </p>
+          </div>
         </div>
       </div>
     </section>
